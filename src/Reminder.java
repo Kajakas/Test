@@ -25,12 +25,7 @@ public class Reminder {
 		int x = random.nextInt(names[0].length);
 		int y = random.nextInt(names[1].length);
 		int z = random.nextInt(names[2].length);
-		if (isMale) {
-			return (names[0][x] + " " + names[2][z]);
-		}
-		else {
-			return (names[1][y] + " " + names[2][z]);
-		}
+		return (isMale) ? (names[0][x] + " " + names[2][z]) : (names[1][y] + " " + names[2][z]);
 	}
 	
 	public static String greeter(String t1, String t2) {
