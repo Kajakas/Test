@@ -4,7 +4,9 @@ public class Reminder {
 	public static String[] Numberarray = new String[] { "üks", "kaks", "kolm", "neli", "viis", "kuus", "seitse",
 			"kaheksa", "üheksa", "kümme" };
 	
-	public static String[][] NameArray = new String [][] {{"Vello", "Uno", "Vitali", "Gennadi"},{"Külli", "Svetlana", "Oksana", "Ljudmilla"},{"Vildikas", "Nisu", "Kukk", "Oks", "Muna", "Kakk"}};
+	public static String[][] NameArray = new String [][] {{"Vello", "Uno", "Vitali", "Gennadi", "Sergei", "Mihhail"},
+		{"Külli", "Svetlana", "Oksana", "Ljudmilla", "Milvi"},
+		{"Vildikas", "Nisu", "Kukk", "Oks", "Muna", "Kakk", "Stalnuhhin"}};
 	
 	
 	
