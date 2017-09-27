@@ -16,9 +16,7 @@ public class Reminder {
 //		System.out.println(genHtml("h1", "asd"));
 //		System.out.println(getAvgValue(new double[] { 13, 17, 15, 20, 14, 19, 12 }));
 //		System.out.println(numText(10));
-//		System.out.println(Arrays.toString(numTextArr(7)));
-//		System.out.println(rngName(new String[] {"Vello", "Uno", "Külli", "Vitali", "Gennadi", "Svetlana"}, new String [] {"M", "M", "N", "M", "M", "N"}, new String[] {"Vildikas", "Nisu", "Kukk", "Oks", "Muna"}));
-		
+//		System.out.println(Arrays.toString(numTextArr(7)));	
 		System.out.printf(rngName(NameArray, false));
 	}
 	
