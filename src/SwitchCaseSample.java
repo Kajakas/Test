@@ -49,7 +49,7 @@ public class SwitchCaseSample {
 		grade.put(9, "You can squat like true slav!");
 		grade.put(10, "Sisesta hinne vahemikus 1-10");
 	
-		return (grade.containsKey(a)) ? grade.get(a) : "Sisesta hinne vahemikus 1-10!";
+		return grade.containsKey(a) ? grade.get(a) : "Sisesta hinne vahemikus 1-10!";
 
 	}
 }
