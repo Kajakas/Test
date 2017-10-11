@@ -3,23 +3,12 @@ package nameGeneration;
 import java.util.Random;
 
 public class NameGenerator {
-
-	private String[] firstNames = {"Kati", "Mati", "Jaanus", "Peeter", "Mari" };
-	private String[] lastNames = {"Tamm", "Kask", "Pilv", "Saar", "Oja", "Luts" };
 	Random random = new Random();
 	
 	public static String[][] NameArray = new String[][] { { "Vello", "Uno", "Vitali", "Gennadi", "Sergei", "Mihhail" },
 		{ "Külli", "Svetlana", "Oksana", "Ljudmilla", "Milvi" },
 		{ "Vildikas", "Nisu", "Kukk", "Oks", "Muna", "Kakk", "Stalnuhhin", "Ämber" } };
 		
-//	public static String rngName(String[][] names, boolean isMale) {
-//		Random random = new Random();
-//		int x = random.nextInt(names[0].length);
-//		int y = random.nextInt(names[1].length);
-//		int z = random.nextInt(names[2].length);
-//		return (isMale) ? (names[0][x] + " " + names[2][z]) : (names[1][y] + " " + names[2][z]);
-//	}
-	
 	/*TODO Kui ülesanded on valmis, siis teha need ümbes selliselt, 
 	et oleks võimalik valida mehe ja naiste nimedele vahel. */
 	
